@@ -2,7 +2,7 @@
 
 ## Build
 
-1. Install `gotip` or Go 1.16
+1. Install [`gotip`](https://www.yellowduck.be/posts/running-go-from-dev-tree/) or Go 1.16
 
 2. Run `make detectapplesilicon`
 
