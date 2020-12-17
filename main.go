@@ -9,8 +9,13 @@ import (
 func main() {
 
 	r, err := syscall.Sysctl("sysctl.proc_translated")
-	if err != nil && err.Error() == "no such file or directory" {
-		fmt.Println("Running on intel mac, arch:", runtime.GOARCH)
+	if err != nil {
+		if err.Error() == "no such file or directory" {
+			fmt.Println("Running on intel mac, arch:", runtime.GOARCH)
+		} else {
+			fmt.Println("Unknown error:", err)
+		}
+		return
 	}
 
 	if r == "\x00\x00\x00" {

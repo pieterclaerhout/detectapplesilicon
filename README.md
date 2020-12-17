@@ -12,21 +12,21 @@ On an Intel mac:
 
 ```
 $ ./detectapplesilicon
-Running on intel mac
+Running on intel mac, arch: amd64
 ```
 
 Natively on an Apple Silicon mac:
 
 ```
 $ ./detectapplesilicon
-Running on apple silicon natively
+Running on apple silicon natively, arch: arm64
 ```
 
 Running via Rosetta 2
 
 ```
 $ arch -arch x86_64 ./detectapplesilicon
-Running on apple silicon under Rosetta 2
+Running on apple silicon under Rosetta 2, arch: amd64
 ```
 
 Based on https://steipete.com/posts/apple-silicon-mac-mini-for-ci/#detecting-apple-silicon-via-scripts.
