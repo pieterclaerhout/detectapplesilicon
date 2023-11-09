@@ -1,0 +1,29 @@
+repo_name: pieterclaerhout/detectapplesilicon
+report_id: 7bc67408674abd10c5b3b7d879c49682
+repo_type: Public
+timestamp: '2023-11-09T11:40:12+00:00'
+requested_by: pieterclaerhout
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
